@@ -20,4 +20,20 @@ body {
 .p2pu-logo img {
     width: 175px;
 }
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
+    color: #FFF;
+    background-color: #C95A00;
+    border-color: #BF5600;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
+
+ background-color: #F6F4EC; background-image: -webkit-gradient(linear, left top, left bottom, from(#a5b8da), to(#7089b3));
+ background-image: -webkit-linear-gradient(top, #F6F4EC, #D7D3C8);
+ background-image: -moz-linear-gradient(top, #F6F4EC, #D7D3C8);
+ background-image: -ms-linear-gradient(top, #F6F4EC, #D7D3C8);
+ background-image: -o-linear-gradient(top, #F6F4EC, #D7D3C8);
+ background-image: linear-gradient(to bottom, #F6F4EC, #D7D3C8);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#F6F4EC, endColorstr=#D7D3C8);
+}
+
 
