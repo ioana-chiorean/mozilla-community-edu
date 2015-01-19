@@ -4,13 +4,3 @@
 .jumbotron{
      background-image: url('../img/mozorg-gradient.png');
 }
-#tabzilla {
-    float: right;
-    display: block;
-    background: url("img/tab.png") repeat scroll 0% 0% transparent;
-    height: 44px;
-    width: 150px;
-    position: relative;
-    text-indent: -2000px;
-    overflow: hidden;
-}
