@@ -1,3 +1,10 @@
 .content img {
     max-width: 100%;
 }
+.jumbotron{
+     background-image: url('../img/mozorg-gradient.png');
+}
+.jumbotron header h1 {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 3.0em;
+}
