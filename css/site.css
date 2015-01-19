@@ -8,3 +8,7 @@
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 3.0em;
 }
+.navbar-default {
+    border-bottom-color: #D7D3C8;
+}
+
