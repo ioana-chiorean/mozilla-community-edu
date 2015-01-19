@@ -3,7 +3,7 @@ layout: index
 published: true
 ---
 
-## Community Education
+## Open Source + Open Education = <3
 
 The Mozilla Reps program aims to empower and support volunteer Mozillians who want to become official representatives of Mozilla in their region/locale.
 
