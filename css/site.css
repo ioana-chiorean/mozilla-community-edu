@@ -20,7 +20,7 @@ body {
 .p2pu-logo img {
     width: 175px;
 }
-.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
+.btn-danger {
     color: #D7D3C8;
     background-color: #4D4E53;
     border-color: #D7D3C8;
