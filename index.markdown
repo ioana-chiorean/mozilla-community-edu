@@ -7,5 +7,7 @@ published: true
 
 The Mozilla Reps program aims to empower and support volunteer Mozillians who want to become official representatives of Mozilla in their region/locale.
 
-With this in mind we are designing educational and training modules to help Reps become more successful in the project.  Check back soon for a regular calendar of opportunities , and ways to get involved with Community Education.
+Education and Training are a key piece in empowering our community as individuals, contributors and community builders.  
+
+Check back soon for training opportunities, and ways to get involved with Community Education :) 
 		
