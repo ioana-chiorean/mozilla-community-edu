@@ -11,4 +11,10 @@
 .navbar-default {
     border-bottom-color: #D7D3C8;
 }
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.42857;
+    color: #4D4E53;
+}
 
