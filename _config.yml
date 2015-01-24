@@ -17,13 +17,6 @@ defaults:
     values:
       layout: "course_page"
 
-# Module Pages
-
-#Mentor Module
-mentor-1: "https://raw.githubusercontent.com/emmairwin/reps-edu-cirriculum/master/modules/conflict_resolution.markdown"
-mentor-2: "2000-01-03-budgets.markdown"
-
-
 prose:
   media: img
   ignore:
