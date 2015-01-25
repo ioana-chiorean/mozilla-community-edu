@@ -2,7 +2,7 @@
 title: Rep Mentor 
 ---
 
-{% include reusable_content/test.markdown %}
+{% include common_content/test.markdown %}
 
 
 ## Introduction (Draft)
