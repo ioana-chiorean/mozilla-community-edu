@@ -2,6 +2,8 @@
 title: Rep Mentor 
 ---
 
+{% include community_cirriculum/reps/mentor_training/reps_portal.md %}
+
 {% include common_content/test.markdown %}
 
 
