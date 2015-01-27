@@ -3,4 +3,4 @@ title: Screening
 ---
 
 
-Screening Test Text
+{% include community_cirriculum/reps/mentor_training/screening.md %}
