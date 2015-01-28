@@ -36,9 +36,11 @@ body {
  background-image: linear-gradient(to bottom, #F6F4EC, #D7D3C8);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#F6F4EC, endColorstr=#D7D3C8);
 }
 
-img[alt="LearningIcon"] { 
+img[alt="LearningIcon"],img[alt="CodeReview"] { 
   max-width:  220px; 
   display: block;
 }
+
+
 
 
