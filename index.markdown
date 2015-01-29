@@ -11,7 +11,7 @@ Education and Training are a key piece in empowering our community as individual
 
 <hr>
 
-Join our Community Education Call!  <a target="_blank" href="https://www.google.com/calendar/hosted/mozilla.com/event?action=TEMPLATE&tmeid=aHZoc2M2OXU4dnVtcGVodmVnMWdlajNqbjhfMjAxNTAyMDVUMTcwMDAwWiBlaXJ3aW5AbW96aWxsYS5jb20&tmsrc=eirwin%40mozilla.com"><i class="fa fa-github fa-2x" ></i></a>
+Join our Community Education Call!  <a target="_blank" href="https://www.google.com/calendar/hosted/mozilla.com/event?action=TEMPLATE&tmeid=aHZoc2M2OXU4dnVtcGVodmVnMWdlajNqbjhfMjAxNTAyMDVUMTcwMDAwWiBlaXJ3aW5AbW96aWxsYS5jb20&tmsrc=eirwin%40mozilla.com"><i class="fa fa-heart fa-2x" ></i></a>
 
 <hr>
 
