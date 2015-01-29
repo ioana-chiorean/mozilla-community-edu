@@ -2,6 +2,6 @@ title: Mozilla Reps
 description: Mozilla Reps Community Education
 modules: [start, mentors]
 signups:
- - name: Emma Irwin
-   image: https://pbs.twimg.com/profile_images/553377679592808448/W22sd7YR_400x400.jpeg
+ - name: Mozilla Mentor Badge
+   image: https://reps.mozilla.org/static/base/img/remo/remo_avatar.png
    twitter: sunnydeveloper
