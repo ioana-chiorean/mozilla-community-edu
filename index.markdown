@@ -15,5 +15,5 @@ Join our Community Education Call!  <a target="_blank" href="https://www.google.
 
 <hr>
 
-<i class="fa fa-github fa-2x" ></i> [This platform](https://github.com/emmairwin/reps-edu/) and [all cirriculum](https://github.com/emmairwin/community_cirriculum) can be found on Github, please help us improve and localize.
+<i class="fa fa-github fa-2x" ></i> [This platform](https://github.com/emmairwin/reps-edu/) and [all curriculum](https://github.com/emmairwin/community_curriculum) can be found on Github, please help us improve and localize.
 		
