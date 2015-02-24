@@ -1,4 +1,0 @@
----
-title: Qualitative Researcher
----
-
