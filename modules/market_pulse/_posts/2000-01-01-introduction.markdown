@@ -2,4 +2,4 @@
 title: Rep Mentor 
 ---
 
-{% include community_curriculum/blob/master/market_pulse/FFOS/en/introduction.md %}
+{% include community_curriculum/market_pulse/FFOS/en/introduction.md %}
