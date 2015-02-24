@@ -18,10 +18,10 @@
 				{% for module in site.data.course.modules %}
 				       
 					{% assign first_post = site.categories[module]|reverse|first %}
-                                        {{ first_post | replace:'foo','bar' }} 
+                                    
 		     
 					<li class="dropdown {% if page.categories[1] == module %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
-						<a href="{{ site.baseurl }}{{ first_post.url }}"
+						<a href="{{ site.baseurl }}{{ first_post.url | replace:'foo','bar' }}"
 						   class="dropdown-item">
 							{{ module }}
 						</a>
