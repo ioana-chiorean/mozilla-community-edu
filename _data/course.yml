@@ -1,6 +1,6 @@
 title: Community Education 
 description: Community Education
-modules: [about, mentors,market_pulse, developer engagement]
+modules: [about, mentors,market pulse, developer engagement]
 signups:
  - name: Mozilla Mentor Badge
    image: https://reps.mozilla.org/static/base/img/remo/remo_avatar.png
