@@ -1,4 +1,4 @@
-# Mozilla Community Education Platform
+## Mozilla Community Education Platform
 * Fork of [P2PU Course](http://howto.p2pu.org/) in a Box 
 * Which leverages the [Jekyll Blogging Software](http://jekyllrb.com/)
 
