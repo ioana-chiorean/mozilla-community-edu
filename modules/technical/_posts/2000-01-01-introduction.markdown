@@ -2,4 +2,4 @@
 title: Git/Github 
 ---
 
-{% include community_cirriculum/technical_training/github/git_github.md %}
+{% include community_cirriculum/reps/mentor_training/en/introduction.md %}
