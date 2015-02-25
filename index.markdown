@@ -3,11 +3,20 @@ layout: index
 published: true
 ---
 
-## Learning, Teaching and Growing Community
+## Learning, Teaching, Growing
 
-The Mozilla Reps program aims to empower and support volunteer Mozillians who want to become official representatives of Mozilla in their region/locale, or functional area.
+Mozilla Community Education aims to empower Mozillians in their contributions, and personal goals through Education and Training.
 
-Education and Training are a key piece in empowering our community as individuals, contributors and community builders.  While many modules will be focused on Reps, and Rep activities, participation is open to all.
+
+
+> "..the core of the plan is the assumption that we need to build a virtuous circle between 
+> 1) participation that helps our products and programs succeed and
+> 2) people getting value from participating in Mozilla. ”
+>      – [Mark Surman on Mozilla’s Participation Plan for 2015](https://commonspace.wordpress.com/2015/01/26/participationplan/)
+
+
+
+Education and Training are a key piece in empowering our community as individuals, contributors and community builders.  While many opportunities will launch form the Mozilla Reps program, this initiative is project-wide collaborative initiative.  Everyone is invited.
 
 <hr>
 
