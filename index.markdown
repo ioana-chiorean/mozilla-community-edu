@@ -16,7 +16,7 @@ Mozilla Community Education aims to empower Mozillians in their contributions, a
 
 
 
-Education and Training are a key piece in empowering our community as individuals, contributors and community builders.  While many opportunities will launch form the Mozilla Reps program, this initiative is project-wide collaborative initiative.  Everyone is invited.
+We believe education and training are a key to empowering community(staff and volunteers) in achieving their goals for personal development and project impact. While many opportunities will launch form the Mozilla Reps program, this initiative is project-wide collaborative initiative.  Everyone is invited.
 
 <hr>
 
@@ -24,5 +24,5 @@ Join our Community Education Call!  <a target="_blank" href="https://www.google.
 
 <hr>
 
-<i class="fa fa-github fa-2x" ></i> [This platform](https://github.com/emmairwin/reps-edu/) and [all curriculum](https://github.com/emmairwin/community_curriculum) can be found on Github, please help us improve and localize.
+<i class="fa fa-github fa-2x" ></i> [This platform](https://github.com/emmairwin/reps-edu/) and [all curriculumm](https://github.com/emmairwin/community_curriculum) can be found on Github, please help us improve and localize.
 		

@@ -4,7 +4,7 @@ modules: [about, mentors, market_pulse, DevRel, Technical]
 submodules: [github]
 signups:
  - name: Mozilla Rep Badge
-   image: https://reps.mozilla.org/static/base/img/remo/remo_avatar.png
+   image: http://tiptoes.ca/wp-content/uploads/2015/02/Preview-01.png
    twitter: sunnydeveloper
  - name: Mozilla Mentor Badge
    image: http://tiptoes.ca/wp-content/uploads/2015/02/Digital-copy.png
