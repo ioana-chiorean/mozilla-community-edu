@@ -2,6 +2,9 @@ title: Community Education
 description: Community Education
 modules: [about, mentors, market_pulse, developer engagement]
 signups:
- - name: Mozilla Mentor Badge
+ - name: Mozilla Rep Badge
    image: https://reps.mozilla.org/static/base/img/remo/remo_avatar.png
+   twitter: sunnydeveloper
+ - name: Mozilla Mentor Badge
+   image: http://tiptoes.ca/wp-content/uploads/2015/02/Digital-copy.png
    twitter: sunnydeveloper
