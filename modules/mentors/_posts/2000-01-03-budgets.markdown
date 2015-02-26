@@ -1,5 +1,0 @@
----
-title: Budgets 
----
-
-{% include community_cirriculum/reps/mentor_training/en/budgets.md %}
