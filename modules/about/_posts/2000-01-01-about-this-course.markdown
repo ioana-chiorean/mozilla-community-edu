@@ -15,7 +15,7 @@ Reps Education offers several different modules of training.  You'll find some o
 
 In so many ways !   
 
-* Designing, writing or proof-reading cirriculum
+* Designing, writing or proof-reading curriculum
 * Graphic design contributors (Badges)
 * Front-End Development (CSS/HTML)
 * Localization of courses
