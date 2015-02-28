@@ -2,5 +2,5 @@
 title: Reps Portal
 ---
 
-{% include community_cirriculum/reps/mentor_training/en/reps_portal.md %}
+{% include community_curriculum/reps/mentor_training/en/reps_portal.md %}
 
