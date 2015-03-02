@@ -1,3 +1,5 @@
+#Community Education Calendar
+
 The community education calendar is collection of teaching, learning and leading opportunities available for community accross the Mozilla project, and beyond.  Please reach out if, you have an event you would like to see included.
 
 
