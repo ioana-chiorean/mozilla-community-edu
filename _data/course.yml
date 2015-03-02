@@ -1,6 +1,6 @@
 title: Community Education 
 description: Community Education
-modules: [about, reps, market_pulse, DevRel, technical]
+modules: [about, reps, market_pulse, DevRel, technical, calendar]
 submodules: [github]
 signups:
  - name: Mozilla Rep Badge
