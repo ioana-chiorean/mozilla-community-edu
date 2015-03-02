@@ -44,6 +44,14 @@ img[alt="CodeReview"] {
   max-width:  260px; 
   display: block;
 }
+img[alt="Detective"] { 
+  max-width:  260px; 
+  display: block;
+}
+img[alt="WebApp"] { 
+  max-width:  160px; 
+  display: block;
+}
 
 
 
