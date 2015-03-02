@@ -1,1 +1,4 @@
+The community education calendar is collection of teaching, learning and leading opportunities available for community accross the Mozilla project, and beyond.  Please reach out if, you have an event you would like to see included.
+
+
 <iframe src="https://www.google.com/calendar/embed?src=mozilla.com_dhkluo4s24tjuo9qctljrboho8%40group.calendar.google.com&ctz=America/Vancouver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
