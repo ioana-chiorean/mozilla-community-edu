@@ -70,10 +70,7 @@ img[alt="WebApp"] {
 .navigation li {
   float: left;
 }
-.submodule {
-   z-index: 6;
-   text-transform: uppercase;
-}
+
 
 .navigation {
    padding-left:50px;
@@ -105,7 +102,7 @@ img[alt="WebApp"] {
   color: #fff;
 }
 .navigation > li > a {
-    line-height: 4;
+    line-height: 3;
 }
 
 
@@ -145,11 +142,16 @@ img[alt="WebApp"] {
 
 .current_submodule{
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   color: #515665;
   padding-left:20px;
   padding-bottom:20px;
 
+
 }
 
-
+ul.submodule {
+   z-index: 6;
+   text-transform: uppercase;
+   margin-left:1px;
+}
