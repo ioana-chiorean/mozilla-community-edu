@@ -2,18 +2,18 @@
 	{% include next_module.html %}
 
   <div class="current_submodule">
-   			{{module_prefix}}	 {{module | upcase | replace:'_',' ' }}
+   			>> {{module_prefix}}	 {{module | upcase | replace:'_',' ' }}
    		
   </div>
 	{% if prev %}
-		<div class="pagination-section">
+		<!--div class="pagination-section">
 
-			<div class="title">
+			< div class="title">
 				Previous {{site.data.course.module_content}}:
 			</div>
 			<a rel="prev" class="prev" href="{{ site.baseurl }}{{ prev_post.url }}">
 				{{ prev }} </a>
-		</div>
+		</div-->
 		<hr />
 	{% endif %}
 	<ul>
@@ -31,12 +31,12 @@
 	{% if next %}
 		
 		<hr />
-		<div class="pagination-section">
+		<!-- div class="pagination-section">
 			<div class="title">
 				Next {{site.data.course.module_content}}:
 			</div>
 			<a rel="next" class="next" href="{{ site.baseurl }}{{ next_post.url }}"> {{ next }}
 			</a>  
-		</div>
+		</div -->
 	{% endif %}
 </div>
