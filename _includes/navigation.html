@@ -11,30 +11,48 @@
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="container">
 		<div class="collapse navbar-collapse" id="p2pu-menu">
-			<ul class="nav navbar-nav">
+			<ul class="navigation nav navbar-nav" >
+
 				<li>
 					<a href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a>
 				</li>
+
+		    <!-- /modules -->
 				{% for module in site.data.course.modules %}
 				       
 					{% assign first_post = site.categories[module]|reverse|first %}
-                                    
-		     
-					<li class="dropdown {% if page.categories[1] == module %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
+
+					<li class="dropdown {% if page.categories[1] contains module %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
 						<a href="{{ site.baseurl }}{{ first_post.url }}"
 						   class="dropdown-item">
-							{{ module | replace:'_',' ' }}
+							{{ module | replace:'_',' ' }}  
 						</a>
-						
+					 <ul class="submodule">	
+		       <!-- /submodules -->
+					{% for submodule in site.data.course.submodules %}
+					 
+					  {% if submodule contains module %}
+
+    					  {% assign submodule_name = module | append: '_' %}
+  						  {% assign submodule_first_post = site.categories[submodule]|reverse|first %}
+  						  {% assign submodule_display_name =  submodule | replace: submodule_name,'' %}
+								
+						    <li><a href="{{ site.baseurl }}{{submodule_first_post.url}}" title="{{ submodule_display_name | replace:'_',' ' }} ">{{ submodule_display_name | replace:'_',' ' }} </a></li>
+
+
+            {% endif %}
+           
+		      {% endfor %}
+           </ul>
+
 					</li>
+					
 				{% endfor %}
 				<li>
 					<a href="https://discourse.mozilla-community.org/c/community-education" target="_blank">Discussion</a>
 				</li>
 			</ul>
-			<!-- ul class="p2pu-logo">
-				<li><a class="p2pu-tab" href="#"><img src="{{ site.baseurl }}/img/wordmark.png" alt="{{ site.title }}" /></a></li>
-			</ul -->
+			
 		</div>
 		
 		<!-- /.navbar-collapse -->

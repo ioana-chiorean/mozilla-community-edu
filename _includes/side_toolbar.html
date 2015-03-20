@@ -1,10 +1,15 @@
 <div class="sidebar col-md-3">
 	{% include next_module.html %}
 
+  <div class="current_submodule">
+   			{{module_prefix}}	 {{module | upcase | replace:'_',' ' }}
+   		
+  </div>
 	{% if prev %}
 		<div class="pagination-section">
+
 			<div class="title">
-				Previous module:
+				Previous {{site.data.course.module_content}}:
 			</div>
 			<a rel="prev" class="prev" href="{{ site.baseurl }}{{ prev_post.url }}">
 				{{ prev }} </a>
@@ -28,10 +33,10 @@
 		<hr />
 		<div class="pagination-section">
 			<div class="title">
-				Next module:
+				Next {{site.data.course.module_content}}:
 			</div>
 			<a rel="next" class="next" href="{{ site.baseurl }}{{ next_post.url }}"> {{ next }}
-			</a>
+			</a>  
 		</div>
 	{% endif %}
 </div>

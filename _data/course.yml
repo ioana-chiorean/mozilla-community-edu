@@ -1,7 +1,9 @@
 title: Community Education 
 description: Community Education
-modules: [about, reps, market_pulse, DevRel, technical, calendar]
-submodules: [github]
+modules: [about, reps, marketpulse, DevRel, technical, calendar]
+submodules: [reps_mentor_training, reps_budget_training, technical_git_and_github, marketpulse_firefox_os]
+submodule_display_name:
+module_content: topic
 signups:
  - name: Mozilla Rep Badge
    image: http://tiptoes.ca/wp-content/uploads/2015/02/Preview-01.png

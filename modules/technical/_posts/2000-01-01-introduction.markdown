@@ -1,6 +1,9 @@
 ---
-title: Git & Github
+title: Technical Training
 ---
 
-{% include community_curriculum/technical_training/github/git_github.md %}
+#Technical Training
 
+Welcome !  This topic includes courses that can help you improve your basic, and more advanced technical skills.
+
+Select a course from the navigation to the left.

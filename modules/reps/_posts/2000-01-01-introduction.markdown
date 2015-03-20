@@ -1,5 +1,7 @@
 ---
-title: Rep Mentor 
+title: Welcome!
 ---
 
-{% include community_curriculum/reps/mentor_training/en/introduction.md %}
+# Mozilla Reps Education & Training
+
+Welcome to the Mozilla Reps Education & Training Modules.  
