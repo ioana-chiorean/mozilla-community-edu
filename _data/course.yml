@@ -1,6 +1,6 @@
 title: Community Education 
 description: Community Education
-modules: [about, reps, marketpulse, DevRel, technical, calendar]
+modules: [about, reps, marketpulse, technical, calendar]
 submodules: [reps_mentor_training, reps_budget_training, technical_git_and_github, marketpulse_firefox_os]
 submodule_display_name:
 module_content: topic
