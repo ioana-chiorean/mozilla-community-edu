@@ -77,7 +77,6 @@ img[alt="WebApp"] {
 
 
 li.dropdown > ul:nth-child(n){
-
   text-align:left;
   z-index:39;
   position:relative;
@@ -95,4 +94,7 @@ li.dropdown:nth-child(n) > ul:nth-child(n) > li:nth-child(n){
 li.dropdown:nth-child(n) > ul:nth-child(n) > li:nth-child(n) > a:nth-child(n):hover{
    background-color:#707782;
   }
+.navbar-nav > li > a {
+    line-height: 2;
+}
 
