@@ -1,17 +1,18 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default " role="navigation">
 
 	<!-- Brand and toggle get grouped for better mobile display -->
-	<div class="navbar-header">
-		<a href="#" class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu">
-			<i class="fa fa-bars"></i>
+	<!--div class="navbar-header">
+		<a href="#" class="navbar-toggle" aria-expanded="true" data-toggle="collapse" data-target="#p2pu-menu">
+			asdfd<i class="fa fa-bars"></i>
 		</a>
-	</div>
+		Removed for now while we sort out why submodule won't show in expanded mode
+	</div-->
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="container">
-		<div class="collapse navbar-collapse" id="p2pu-menu">
-			<ul class="moz-navigation">
+		<div class="" id="">
+			<ul class="navigation navbar-nav  no-collapse" >
 
 				<li>
 					<a href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a>
@@ -19,15 +20,23 @@
 
 		    <!-- /modules -->
 				{% for module in site.data.course.modules %}
+
+				{% assign dropdown = 0 %}
+          {% for submodule in site.data.course.submodules %}
+             {% if submodule contains module %}
+               {% assign dropdown = 1 %}
+             {% endif %}
+           {% endfor %}
 				       
 					{% assign first_post = site.categories[module]|reverse|first %}
 
-					<li class="dropdown {% if page.categories[1] contains module %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
+					<li class="{% if dropdown == 1 %}dropdown {%endif%} {% if page.categories[1] contains module %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
 						<a href="{{ site.baseurl }}{{ first_post.url }}"
 						   class="dropdown-item">
 							{{ module | replace:'_',' ' }}  
-						</a>
-					 <ul class="submodule">	
+					 		{% if dropdown == 1 %}<b class="caret"></b>{% endif %}</a>
+
+					 <ul class="{% if dropdown == 1 %}dropdown-menu no-collapse {%endif%}"> 
 		       <!-- /submodules -->
 					{% for submodule in site.data.course.submodules %}
 					 
@@ -37,8 +46,7 @@
   						  {% assign submodule_first_post = site.categories[submodule]|reverse|first %}
   						  {% assign submodule_display_name =  submodule | replace: submodule_name,'' %}
 								
-						    <li><a href="{{ site.baseurl }}{{submodule_first_post.url}}" title="{{ submodule_display_name | replace:'_',' ' }} ">{{ submodule_display_name | replace:'_',' ' }} </a></li>
-
+						    <li class="" ><a href="{{ site.baseurl }}{{submodule_first_post.url}}" title="{{ submodule_display_name | replace:'_',' ' }} ">{% if page.categories[1] contains submodule%}<i class="fa fa-chevron-right"></i>&nbsp;{%endif%}{{ submodule_display_name | replace:'_',' ' }}</a></li>
 
             {% endif %}
            

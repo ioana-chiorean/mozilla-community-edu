@@ -450,3 +450,4 @@ $navbar-light: $gray-snow;
 		transform: translateY(-5px)
 	}
 }
+@grid-float-breakpoint:    992px;  // Change it to smallest value possible not less than 2px.
